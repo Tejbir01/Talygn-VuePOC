@@ -17,6 +17,7 @@
 <script>
 import { Form, Field, ErrorMessage } from 'vee-validate';
 export default {
+  inject: ['$validator'],
   components: {
     Form,
     Field,
