@@ -1,0 +1,867 @@
+﻿.menu-left-wrapper .l-menu-footer {
+    bottom: 30px !important;
+}
+
+.btn-primary-light {
+    background-color: rgba(37,165,255,0.8);
+    background-image: none;
+    border: none;
+    padding: .4rem .75rem !important;
+    line-height: 1.6;
+    margin: 0.25rem 0px !important;
+}
+
+    .btn-primary-light:hover {
+        color: #fff;
+        background-color: #0069d9;
+        border-color: #0062cc;
+    }
+
+aside .resource:nth-child(2n+1) {
+    background: none;
+}
+
+aside .resourcemain:nth-child(2n+1) {
+    background: #fff !important;
+}
+
+aside .resourcemain:nth-child(2n) {
+    background: #f4f4f4 !important;
+}
+
+.flying {
+    position: absolute;
+    margin: 4px;
+    padding: 10px;
+    width: 97%;
+    z-index: 999;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+#calendar.roadmap section .divresources {
+    margin-top: 0px !important;
+}
+
+#phase ul {
+    position: relative;
+}
+
+#calendar.daily aside {
+    background: none;
+    border-right: none;
+}
+
+#phase, .resource-line {
+    min-height: 41px;
+}
+
+#calendar.roadmap section #resources .resource-line .bookings .booking-anchor .booking {
+    height: 20px;
+    margin-left: 4px;
+}
+
+    #calendar.roadmap section #resources .resource-line .bookings .booking-anchor .booking .label {
+        top: 0px !important;
+    }
+
+#calendar.roadmap section #resources .resource-line .bookings .booking-anchor {
+    margin-bottom: 10px;
+}
+
+.resources--cal-unit {
+    padding-bottom: 10px;
+    height: 87px;
+}
+
+#calendar.roadmap aside {
+    padding-top: 30px;
+}
+
+#calendar.daily.roadmap section header #time-periods .unit-group h2 {
+    height: 30px;
+    line-height: 4px;
+}
+
+#calendar.roadmap section header nav.date-controls {
+    height: 30px;
+}
+
+#calendar.roadmap section header {
+    height: 30px;
+}
+/*overflow: hidden; Commented by Harjit****/
+#calendar.daily section #resources .resource-line .bookings .booking-anchor .booking {
+    position: inherit;
+}
+
+.RpadMap_milestone {
+    top: 0px;
+    left: 2px;
+    background: #ff842d;
+    border: 1px solid #f5751d;
+}
+
+.resourcemain .resource h3.h3top {
+    top: 17px !important;
+    position: absolute;
+    right: 0;
+}
+
+#calendar.roadmap.detailed section header #time-periods .unit-group .units .cal-unit {
+    width: 39.8px;
+}
+
+#calendar.roadmap.detailed section header #time-periods .unit-group {
+    width: 280px;
+}
+
+#calendar.roadmap.detailed section header {
+    height: 80px;
+}
+
+    #calendar.roadmap.detailed section header nav {
+        height: 80px;
+    }
+
+#calendar.roadmap.detailed aside {
+    padding-top: 80px;
+}
+
+#calendar.roadmap span.name {
+    font-size: 14px;
+}
+
+#calendar.roadmap.detailed section header #time-periods .unit-group .units .cal-unit:first-child {
+    width: 40px;
+}
+
+#calendar.roadmap.months section .resources--cal-unit {
+    width: 20px;
+}
+
+label.disablecheck {
+    margin: 0px 0;
+    padding: 12px 0 9px 20px;
+}
+
+.Rm_drop .ButtonDiv:hover {
+    background: none !important;
+}
+
+.colorScheme {
+    padding: 12px;
+    margin-left: 23px;
+}
+
+.SquareColor {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+    .SquareColor.Stage {
+        background: #d4a6e4 !important;
+        border: 1px solid #a476b4 !important;
+    }
+
+    .SquareColor.Phase {
+        background: #3498db !important;
+        border: 1px solid #237ebb !important;
+    }
+
+    .SquareColor.Active {
+        background: #28a745 !important;
+        border: 1px solid #1f9a3b !important;
+    }
+
+    .SquareColor.Cancelled {
+        background: #bf4b4b !important;
+        border: 1px solid #b13737 !important;
+    }
+
+    .SquareColor.Closed {
+        background: #888888 !important;
+        border: 1px solid #7b7b7b !important;
+    }
+
+    .SquareColor.Completed {
+        background: #25a5ff !important;
+        border: 1px solid #1793ea !important;
+    }
+
+    .SquareColor.Inactive {
+        background: #d72435 !important;
+        border: 1px solid #ce1f2f !important;
+    }
+
+    .SquareColor.Inprogress {
+        background: #57cc71 !important;
+        border: 1px solid #48bd62 !important;
+    }
+
+    .SquareColor.Pending {
+        background: #f9be0d !important;
+        border: 1px solid #d8a407 !important;
+    }
+
+#calendar.roadmap section header nav.roadProjectmap label:after {
+    content: none;
+}
+
+#calendar.roadmap section header nav.roadProjectmap label:before {
+    content: none;
+}
+
+#calendar.daily aside .resource {
+    border: none;
+}
+
+#phase ul li a {
+    height: 32px;
+    padding: 5px 40px 0 57px;
+}
+
+    #phase ul li a::before {
+        border-bottom: 16px solid transparent;
+        border-left: 25px solid #fff;
+        border-top: 16px solid transparent;
+    }
+
+    #phase ul li a::after {
+        border-bottom: 16px solid transparent;
+        border-left: 26px solid #17a2b8; /*#3498db*/
+        border-top: 16px solid transparent;
+    }
+
+#calendar.daily.roadmap section #resources .resource-line .bookings .rmtooltip .RMcontent {
+    word-break: break-word;
+}
+
+#calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .booking {
+    left: -4px;
+}
+
+.RS_draggable_box3 {
+    background: #85dae8 !important;
+    border: 1px solid #82edfb !important;
+}
+
+.booking.mine.task.sticky.ui-resizable.TaskData.Complete {
+    background: #88d48c !important;
+    border: 1px solid #5da863 !important;
+}
+
+.booking.mine.task.sticky.ui-resizable.TaskData.InProgress {
+    background: #ffe18b !important;
+    border: 1px solid #dea917 !important;
+}
+
+.booking.mine.task.sticky.ui-resizable.TaskData.Expired {
+    background: #ec7878 !important;
+    border: 1px solid #c72323 !important;
+}
+
+.booking.mine.task.sticky.ui-resizable.TaskData.pendingparent {
+    background: #B6AFF7 !important;
+    border: 1px solid #8C85CC !important;
+}
+/*.rmtooltip {        display: none !important;    }*/
+.colorScheme .RM_Setting .Rm_drop > div:hover {
+    background: none;
+    cursor: default;
+    color: #212121 !important;
+}
+
+.colorScheme .RM_Setting .Rm_drop > div {
+    color: #212121;
+}
+
+.SearchCriteria {
+    margin: 16px;
+    text-align: center;
+    font-size: 14px;
+    color: red;
+}
+
+@media (min-width:1280px) and (max-width:1366px) {
+    #calendar.daily section header nav.date-controls { top: 185px !important; }/*top: 155px !important; Harjit done on Deepak PC*/
+
+    #calendar.daily section {
+        padding-top: 155px !important;
+    }
+
+    #calendar.roadmap aside {
+        padding-top: 79px;
+    }
+
+    .colorScheme {
+        margin-left: 10px;
+    }
+}
+
+#calendar.roadmap.daily aside {
+    padding-top: 210px !important;
+}
+
+#calendar.roadmap section header nav.roadProjectmap label::before {
+    display: none;
+}
+
+#calendar.roadmap section header nav.roadProjectmap label::after {
+    display: none;
+}
+
+#calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .booking.phase {
+    background: #17a2b8 !important;
+    border-radius: 0px;
+    border: none;
+}
+
+#calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .booking.stage {
+    background: #e1bf59 !important;
+    border-radius: 0px;
+    border: none;
+}
+
+#calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .booking.tasks {
+    background: #5ab56f !important;
+    border-radius: 0px;
+    border: none;
+}
+
+#calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .label {
+    color: #fff !important;
+}
+
+#calendar.roadmap.daily.detailed aside {
+    padding-top: 260px !important;
+}
+
+.btn-primary {
+    color: #fff !important;
+    background: #25a5ff !important;
+    border-color: #25a5ff !important;
+}
+
+.btn-warning {
+    color: #fff !important;
+    background: #ffc107 !important;
+    border-color: #ffc107 !important;
+}
+
+.modal-body label {
+    line-height: normal !important;
+}
+
+ul.ks-cboxtags li label {
+    line-height: 32px !important;
+}
+
+.modal-footer {
+    justify-content: center !important;
+}
+
+.user-guide {
+    line-height: normal !important;
+}
+
+.round-icon-small {
+    line-height: 30px !important;
+    padding: 0px !important;
+}
+
+.btn-info {
+    color: #fff !important;
+    background-color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+    background-image: none !important;
+}
+
+strong {
+    font-weight: normal !important;
+}
+
+.booking .rmtooltipdata {
+    display: none !important;
+}
+
+.popover-body .rmtooltipinner {
+    display: block !important;
+}
+
+.popover-body {
+    background: #e4f2fd;
+    padding: 5px;
+}
+
+.popover {
+    border-color: #5eacea;
+    border-radius: 0px;
+    min-width: 320px;
+}
+
+.popover-header {
+    display: none;
+}
+
+.bs-popover-auto[x-placement^="top"] .arrow::before, .bs-popover-top .arrow::before {
+    border-top-color: #5eacea;
+}
+
+.bs-popover-auto[x-placement^="top"] .arrow::after, .bs-popover-top .arrow::after {
+    border-top-color: #e4f2fd;
+}
+
+.popover .RMheading {
+    color: #5eacea;
+    font-weight: bold;
+    border-bottom: 1px dashed rgba(0,0,0,.3);
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    word-wrap: normal;
+    white-space: nowrap;
+}
+
+.popover .RMcontentdt {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .booking.stageData {
+    background: #CC9752 !important;
+    border-color: #b37c34;
+}
+
+#calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .booking.taskActive {
+    background: #28a745 !important;
+    border: 1px solid #1a8e35 !important;
+}
+
+#calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .booking.taskCancelled {
+    background: #bf4b4b !important;
+    border: 1px solid #bf4b4b !important;
+}
+
+#calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .booking.taskClosed {
+    background: #888888 !important;
+    border: 1px solid #888888 !important;
+}
+
+#calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .booking.taskCompleted {
+    background: #25a5ff !important;
+    border: 1px solid #1793ea !important;
+}
+
+#calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .booking.taskInactive {
+    background: #30ad4d !important;
+    border: 1px solid #178631 !important;
+}
+
+#calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .booking.taskInprogress {
+    background: #78d48c !important;
+    border: 1px solid #40b55a !important;
+}
+
+#calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .booking.taskpending {
+    background: #f9be0d !important;
+    border: 1px solid #d8a407 !important;
+}
+
+#calendar.roadmap section {
+    margin-bottom: 20px;
+    background: #f1f1f1;
+}
+/*****above form page*****/
+
+.resourceschedule {
+    float: left;
+    width: 100%;
+    background: #ffffff;
+    position: fixed;
+    z-index: 888;
+    padding: 10px 10px 0px 10px !important;
+    top: 46px !important;
+    border-bottom: 1px solid transparent;
+}
+/*margin-top: 53px;*/
+.resourceschedulebase {
+    float: left;
+    width: 100%;
+}
+
+div.unit-group:nth-child(6n+1) {
+    background-color: #7998d9;
+}
+
+div.unit-group:nth-child(6n+2) {
+    background-color: #6cbfcf;
+}
+
+div.unit-group:nth-child(6n+3) {
+    background-color: #e78a6b;
+}
+
+div.unit-group:nth-child(6n+4) {
+    background-color: #7998d9;
+}
+
+div.unit-group:nth-child(6n+5) {
+    background-color: #6cbfcf;
+}
+
+div.unit-group:nth-child(6n+6) {
+    background-color: #c28dd5;
+}
+
+/*@media (min-width:1601px) {
+    #calendar.daily section header.topMargin {
+        top: 185px !important;
+    }
+}*/
+    #calendar.daily section header.topMargin {
+        top: 185px !important;
+    }
+
+
+.btn-success {
+    color: #fff !important;
+    background: #28a745 !important;
+    border-color: #28a745 !important;
+}
+
+.btn-danger {
+    color: #fff !important;
+    background: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
+
+.btn-secondary {
+    color: #fff !important;
+    background: #6c757d !important;
+    border-color: #6c757d !important;
+}
+
+.resourceschedule .resourceschedulebase div a.btn {
+    padding-bottom: 5px !important;
+}
+
+/***If Left menu - Harjit Singh*********/
+.menu-left-wrapper .resourceschedule {
+    top: 0px !important;
+    padding-top: 0px !important;
+}
+
+body.menu-left-wrapper.menucolss.wrapper-shrink #calendar.daily section header nav.date-controls {
+    left: 60px !important;
+    top: 131px !important;
+}
+
+body.menu-left-wrapper.menucolss.wrapper-shrink #calendar.daily aside {
+    margin-left: 0px;
+    padding-top: 80px !important;
+    left: 60px !important;
+    top: 82px !important;
+}
+
+body.menu-left-wrapper.menucolss #calendar.daily section header nav.date-controls {
+    left: 190px !important;
+    top: 131px !important;
+    transition: all .15s;
+}
+
+body.menu-left-wrapper.menucolss #calendar.daily aside {
+    margin-left: 0px;
+    padding-top: 80px !important;
+    left: 190px !important;
+    top: 82px !important;
+    transition: all .15s;
+}
+
+body.menu-left-wrapper.menucolss.wrapper-shrink #calendar.daily section {
+    padding-top: 125px !important;
+    margin-left: 250px !important;
+    transition: all .15s;
+}
+
+body.menu-left-wrapper.menucolss #calendar.daily section {
+    padding-top: 125px !important;
+    margin-left: 250px !important;
+    transition: all .15s;
+}
+
+body.menu-left-wrapper.menucolss #ancuserGuide {
+    margin-right: 65px;
+}
+
+body.menu-left-wrapper.menucolss #calendar.daily section header.topMargin {
+    top: 131px !important;
+}
+/***If Left menu - Harjit Singh*********/
+
+
+/***Harjit Singh on Deepak PC - sides white***************/
+.clsroadmap::before {
+    height: 100%;
+    width: 10px;
+    background: #fff;
+    content: "";
+    position: fixed;
+    z-index: 999;
+    right: 0px;
+    top: 0px;
+}
+
+.clsroadmap::after {
+    height: 100%;
+    width: 10px;
+    background: #fff;
+    content: "";
+    position: fixed;
+    z-index: 999;
+    left: 0px;
+    top: 0px;
+}
+
+body.menu-left-wrapper.menucolss .clsroadmap::after {
+    height: 100%;
+    width: 10px;
+    background: #fff;
+    content: "";
+    position: fixed;
+    z-index: 999;
+    left: 190px;
+    top: 0px;
+}
+
+body.menu-left-wrapper.menucolss.wrapper-shrink .clsroadmap::after {
+    height: 100%;
+    width: 10px;
+    background: #fff;
+    content: "";
+    position: fixed;
+    z-index: 999;
+    left: 60px;
+    top: 0px;
+}
+/***Harjit Singh on Deepak PC - sides white***************/
+
+
+
+#calendar.daily aside {
+    left: 10px;
+}
+
+#calendar.daily section header nav.date-controls {
+    left: 10px;
+}
+
+#calendar.daily section {
+    margin-left: 260px;
+    width: calc(100% - 270px);
+}
+/********overflow: auto; - horizontal scroll was not working Harjit Singh with Deepak*********/
+
+#calendar.roadmap.daily aside {
+    padding-top: 213px !important;
+}
+
+#calendar.roadmap section {
+    padding-top: 130px !important;
+}
+
+#calendar.daily section header nav.date-controls {
+    top: 185px;
+}
+/*top: 184px Harjit***/
+
+
+/*************Dark theme***************/
+body.rm-Dark .resourceschedule {
+    background: #1c1f22;
+}
+
+body.rm-Dark #calendar.daily section {
+    background: #1c1f22;
+}
+
+body.rm-Dark aside .resourcemain:nth-child(2n+1) {
+    background: #2c3136 !important;
+}
+
+body.rm-Dark #calendar.daily section header nav.date-controls {
+    background: #2c3136;
+    border-right: 1px solid #3c3f43;
+    border-bottom: 1px solid #3c3f43;
+    color: #ddd !important;
+    font-size: 14px !important;
+    line-height: 20px;
+}
+
+body.rm-Dark #calendar.daily section #time-periods .unit-group h2 {
+    color: #bfbfbf;
+}
+
+body.rm-Dark #calendar.daily section header {
+    border-bottom: 1px solid #3c3f43;
+}
+
+body.rm-Dark div.unit-group:nth-child(2n+1) {
+    background-color: #2c3136 !important;
+}
+
+body.rm-Dark aside .resourcemain:nth-child(2n) {
+    background: #262c31 !important;
+}
+
+body.rm-Dark div.unit-group:nth-child(2n) {
+    background-color: #38424d !important;
+}
+
+body.rm-Dark .flying {
+    color: #ddd;
+}
+
+body.rm-Dark .resources--cal-unit {
+    background: #212528;
+    border-bottom: 1px solid #454748;
+    border-left: 1px solid #454748;
+}
+
+    body.rm-Dark .resources--cal-unit.unavailable {
+        background: #2c3136 !important;
+    }
+
+    body.rm-Dark .resources--cal-unit .utilisation {
+        background: #191d20;
+        color: #ddd;
+    }
+
+body.rm-Dark #calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .booking.taskActive {
+    background: #aad15e !important;
+    border: 1px solid #aad15e !important;
+}
+
+body.rm-Dark #calendar.roadmap.detailed section header #time-periods .unit-group .units .cal-unit {
+    border-left: 1px dashed rgb(69, 71, 72);
+    background: rgba(0,0,0,.1) !important;
+}
+
+body.rm-Dark #calendar.roadmap span.date {
+    color: #bfbfbf !important;
+}
+
+body.rm-Dark .RM_Setting .Rm_drop {
+    background: #343b42;
+    border: 1px solid #343b42;
+    color: #ddd;
+}
+
+    body.rm-Dark .RM_Setting .Rm_drop::before {
+        border-bottom: 10px solid #343b42;
+    }
+
+
+/*************ultra light theme***************/
+body.rm-ultra-light .resourceschedule {
+    background: #f3f3f3;
+}
+
+body.rm-ultra-light #calendar.daily section header nav.date-controls {
+    background: #d3d3d3;
+}
+
+body.rm-ultra-light div.unit-group:nth-child(2n+1) {
+    background: #dee2e6 !important;
+}
+
+body.rm-ultra-light div.unit-group:nth-child(2n) {
+    background: #fff !important;
+}
+
+body.rm-ultra-light #calendar.daily section .cal-unit.current {
+    background: rgba(0,0,0,.2) !important;
+}
+
+body.rm-ultra-light #calendar.daily section #time-periods .unit-group .units {
+    border-bottom: 1px solid #c8cad6;
+}
+
+body.rm-ultra-light .unit-group .name {
+    color: #000 !important;
+}
+
+body.rm-ultra-light #calendar.roadmap span.date {
+    color: #404040 !important;
+}
+
+body.rm-ultra-light #calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .booking.taskActive {
+    background: #94cc5f !important;
+    border: 1px solid #94cc5f !important;
+}
+
+body.rm-ultra-light #calendar.daily section #resources .resource-line .bookings .booking-anchor .booking * {
+    color: #555;
+}
+
+body.rm-ultra-light #calendar.daily section #time-periods .unit-group h2 {
+    color: #656565;
+}
+
+/*************light theme***************/
+body.rm-Light .resourceschedule {
+    background: #f1f1f1 !important;
+}
+
+body.rm-Light div.unit-group:nth-child(6n+1) {
+    background-color: #7998d9 !important
+}
+
+body.rm-Light div.unit-group:nth-child(6n+2) {
+    background-color: #6cbfcf !important
+}
+
+body.rm-Light div.unit-group:nth-child(6n+3) {
+    background-color: #eda189 !important
+}
+
+body.rm-Light div.unit-group:nth-child(6n+4) {
+    background-color: #e3c08a !important
+}
+
+body.rm-Light div.unit-group:nth-child(6n+5) {
+    background-color: #abc6b3 !important
+}
+
+body.rm-Light div.unit-group:nth-child(6n+6) {
+    background-color: #dad58a !important
+}
+
+body.rm-Light div.unit-group:nth-child(6n+1) .units .cal-unit, body.rm-Light div.unit-group:nth-child(6n+3) .units .cal-unit, body.rm-Light div.unit-group:nth-child(6n+5) .units .cal-unit {
+    background-color: #f0f0f0 !important;
+}
+
+body.rm-Light div.unit-group:nth-child(6n+2) .units .cal-unit, body.rm-Light div.unit-group:nth-child(6n+4) .units .cal-unit, body.rm-Light div.unit-group:nth-child(6n+6) .units .cal-unit {
+    background-color: #fff !important
+}
+
+body.rm-Light #calendar.daily section .cal-unit.current {
+    background: #c0c0c0 !important;
+}
+
+body.rm-Light #calendar.daily section #time-periods .unit-group .units {
+    border-bottom: 1px solid #c8cad6;
+    color: #333;
+}
+
+body.rm-Light #calendar.roadmap span.date {
+    color: #404040 !important;
+}
+
+body.rm-Light #calendar.daily section #time-periods .unit-group h2 {
+    color: #333 !important;
+}
+
+body.rm-Light #calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .booking.taskActive {
+    background: #add18b !important;
+    border: 1px solid #add18b !important;
+}

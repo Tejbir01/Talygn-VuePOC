@@ -1,0 +1,158 @@
+﻿#divjuda_menu, footer{display:none !important;}
+.resourceschedule {float:left; width:100%;  background:#fff; position:fixed; z-index:888; padding-top: 10px!important; top:46px!important; margin-bottom:1px; border:none;}
+.resourceschedulebase {float:left; width:100%;}
+
+div.unit-group:nth-child(6n+1) {background-color:#7998d9;}
+div.unit-group:nth-child(6n+2) {background-color:#6cbfcf;}
+div.unit-group:nth-child(6n+3) {background-color:#e78a6b;}
+div.unit-group:nth-child(6n+4) {background-color:#7998d9;}
+div.unit-group:nth-child(6n+5) {background-color:#6cbfcf;}
+div.unit-group:nth-child(6n+6) {background-color:#c28dd5;}
+@media (min-width:1601px){
+#calendar.daily section header.topMargin{top:191px!important;}
+}
+.btn-success { color: #fff!important; background: #28a745!important; border-color: #28a745!important; } 
+.btn-danger { color: #fff!important; background: #dc3545!important; border-color: #dc3545!important; }
+.btn-secondary {color: #fff!important; background: #6c757d!important; border-color: #6c757d!important;}
+.resourceschedule .resourceschedulebase div a.btn{padding-bottom: 5px !important;}
+
+
+/***If Left menu - Harjit Singh*********/
+.menu-left-wrapper .resourceschedule{top:0px!important; padding-top:0px!important;}
+
+body.menu-left-wrapper.menucolss.wrapper-shrink #calendar.daily section header nav.date-controls{left:60px!important; top:131px!important;}
+body.menu-left-wrapper.menucolss.wrapper-shrink #calendar.daily aside{margin-left: 0px; padding-top: 80px !important;left: 60px !important;top: 82px !important;}
+
+body.menu-left-wrapper.menucolss #calendar.daily section header nav.date-controls{left:190px!important; top:131px!important;transition: all .15s;}
+body.menu-left-wrapper.menucolss #calendar.daily aside{margin-left: 0px; padding-top: 80px !important; left:190px!important; top: 82px!important;transition: all .15s;}
+
+body.menu-left-wrapper.menucolss.wrapper-shrink #calendar.daily section{padding-top:125px!important; margin-left:250px!important;transition: all .15s;}
+body.menu-left-wrapper.menucolss #calendar.daily section{padding-top:125px!important; margin-left:250px!important;transition: all .15s;}
+body.menu-left-wrapper.menucolss #ancuserGuide{margin-right: 65px;}
+
+/***If Left menu - Harjit Singh*********/
+
+
+.menu-left-wrapper .l-menu-footer { bottom: 30px !important; }
+#calendar.roadmap section #resources:not(:first-child) { margin-top: 0px !important; }
+#calendar.roadmap section #resources:first-child { margin-top: 45px !important; }
+aside .resource { background: #ffffff !important; }
+/*aside .setcolor { background: #525f65 !important; color: white; }*/
+#calendar.daily aside .resource { border-bottom: 1px solid #e6e6e6 !important; }
+#calendar.daily aside { width: 160px !important;  padding-top: 135px !important;}
+#calendar.daily section { margin-left: 160px !important; padding-top: 135px !important;}
+#calendar.daily section header nav.date-controls { width: 160px !important; }
+#calendar.roadmap.detailed section header #time-periods .unit-group .units .cal-unit { width: 45px; }
+#calendar.roadmap.detailed section header #time-periods .unit-group .units .cal-unit:first-child { width: 45px; }
+#calendar.roadmap aside .resource { line-height: 15px; min-height: 47px !important; }
+#calendar.roadmap section .resources--cal-unit { min-height: 47px !important; }
+#calendar.daily section #resources .resource-line .bookings .booking-anchor { margin-bottom: 26px !important; }
+#calendar.daily aside { height: 100vh !important; background: #ffffff !important; }
+#calendar.roadmap.detailed section .resources--cal-unit { width: 45px !important; display: inline-block; }
+#calendar.daily section #resources .resource-line { height: 46.9px; }
+#calendar.roadmap aside .resource { line-height: 24px !important; }
+#calendar.roadmap section #resources .resource-line .bookings .booking-anchor .booking { height: 22px; }
+#calendar.roadmap section #resources .resource-line .bookings .booking-anchor { }
+#calendar.roadmap section #resources .resource-line .bookings .booking-anchor { margin: 5px 0px; }
+#calendar.roadmap section #resources .resource-line .bookings .booking-anchor, #calendar.detailed section #resources .resource-line .bookings .booking-anchor { margin-bottom: 0px; }
+#calendar.roadmap.detailed section header #time-periods .unit-group { width: 315px; }
+.resources--cal-unit.leaveday { background: #e6e1b9 !important; }
+.resourcescheduling.resourceschedule { margin: 0px !important; position: relative !important; }
+.resourcescheduling.resourceschedule .resourceschedulebase { margin: 0px !important; } 
+.divresschedulingbase_DS #calendar.daily aside { width: 250px !important; position: absolute !important; top: 90px !important; }
+.divresschedulingbase_DS section header nav.date-controls { position: relative !important; }
+.divresschedulingbase_DS #calendar.daily section header nav.date-controls { width: 250px !important; }
+.divresschedulingbase_DS section header { position: absolute !important; }
+.divresschedulingbase_DS section #time-periods { position: relative !important; left: 250px; }
+.divresschedulingbase_DS section header nav.date-controls { top: 90px !important; }
+.divresschedulingbase_DS section #resources { margin-top: 4px !important; }
+.divresschedulingbase_DS #calendar.daily section { margin-left: 250px !important; padding-top: 88px !important; }
+.divresschedulingbase_DS aside .resource h3 { height: 25px !important; }
+#calendar.roadmap aside .resource h3 { height: auto !important; }
+.resourceschedule .resourceschedulebase div a { padding-bottom: 0px !important; font-size: 14px !important; }
+#calendar.roadmap.daily section header { height: 50px !important; }
+#calendar.roadmap section header nav.date-controls.roadProjectmap { height: 50px; }
+#calendar.roadmap.daily aside { padding-top: 50px !important; margin-top: 190px ; }
+.divresschedulingbase_DS #calendar.daily aside { height: auto !important; } 
+#calendar.roadmap.daily section #resources .resource-line .bookings .booking-anchor .booking { height: 22px !important; top: -1px !important; }
+.assignicon { background-image: url('../../Content/images/Black/inner_mono_new.png'); background-repeat: no-repeat; width: 33px; height: 17px; background-position: -493px -1168px; float: left; }
+.resourcescheduling .Rimpact_control { padding: 24px 5px; width: 20%; }
+.resourcescheduling .Rimpact_controlbars { width: 72% !important; margin-top: 20px !important; text-align: left; line-height: 20px; } 
+.divresschedulingbase_DS #calendar.daily section header { height: 88px !important; } 
+#calendar.detailed section.rimpact_mt_122 { padding-top: 125px !important; }
+.smallfonts { font-size: 13px !important; }
+.lineht21 { line-height: 21px; }
+.field-validation-error { font-size: 80%; width: 100%; margin-top: 4px; }
+
+@media (min-width:200px) and (max-width:1440px) {
+.dxnone { display: block !important; }
+.top1440 { margin-top: 14px !important; float: left !important; text-align: left; padding-left: 15px; margin-right: 0px !important; }
+}
+
+/**********Resource Impact - popup************/
+.booking .rmtooltipdata { display: none !important; }
+#calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .label { color: #fff !important; }
+#calendar.roadmap section #resources .resource-line .bookings .booking-anchor .booking .label { top: 0px !important; }
+.popover-body .rmtooltipinner { display: block !important; }
+.popover-body { background: #e4f2fd; padding: 5px; }
+.popover { border-color: #5eacea; border-radius: 0px; min-width: 320px; } 
+.popover-header { display: none; }
+.bs-popover-auto[x-placement^="top"] .arrow::before, .bs-popover-top .arrow::before { border-top-color: #5eacea; }
+.bs-popover-auto[x-placement^="top"] .arrow::after, .bs-popover-top .arrow::after { border-top-color: #e4f2fd; }
+.popover .RMheading { color: #5eacea; font-weight: bold; border-bottom: 1px dashed rgba(0,0,0,.3); padding-bottom: 5px; margin-bottom: 5px; word-wrap: normal; white-space: nowrap; }
+.popover .RMcontentdt { font-size: 12px; font-weight: 600; }
+
+#calendar.daily section header nav.date-controls{ top: 190px; }
+.rimpactmain{position:relative;}
+.rimpactmain::before{content: ""; width: 8px; height: 100%; position: fixed; background: #fff; left: 0px; top: 0px; z-index: 1000; } 
+.rimpactmain::after{content: ""; width: 8px; height: 100%; position: fixed; background: #fff; right: 0px; top: 0px; z-index: 1000; }
+.custom_tproject .legends-rmap {   left: 0;}
+.custom_tproject .p-actions-collapse .legends-rmap {    top: 44px; }
+
+/**********Dark-theme*****************/
+body.ri-Dark #calendar.daily aside{ background:#2c3136 !important;  border-right: 1px solid #3c3f43;}
+body.ri-Dark #calendar.daily aside .resource{ border-bottom: 1px solid #3c3f43 !important; }
+body.ri-Dark #calendar.daily aside { color: #ddd; }
+body.ri-Dark aside .resource { background: #2c3136 !important;}
+body.ri-Dark #calendar.daily section header nav.date-controls { background: #292e33; border-right: 1px solid #3c3f43; border-bottom: 1px solid #3c3f43; font-weight: 600; color: #ddd; }
+body.ri-Dark div.unit-group:nth-child(2n+1) { background-color: #2c3136 !important; }
+body.ri-Dark div.unit-group:nth-child(2n) { background-color: #38424d !important; }
+body.ri-Dark #calendar.daily section #time-periods .unit-group h2 { margin-bottom: 0px; color: #bfbfbf; }
+body.ri-Dark .resources--cal-unit {  background: #212528; border-bottom: 1px solid #454748; border-left: 1px solid #454748; }
+body.ri-Dark .resources--cal-unit.unavailable { background: #2d3237 !important;} 
+body.ri-Dark #calendar.daily section header{ background: #292e33;  border-bottom: 1px solid #3c3f43;}
+body.ri-Dark #calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .booking {  background: #5395d9;  border: 1px solid #5395d9;}
+body.ri-Dark #calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .ri-task { background: #74a665; border: 1px solid #74a665; }
+body.ri-Dark #calendar.daily.roadmap section #resources .resource-line .bookings .booking-anchor .ri-resource { background: #a87556; border: 1px solid #a87556;}
+body.ri-Dark .calculated_enddate{ background: #7d6dd8; }
+body.ri-Dark .legend-blue { background: #5395d9; }
+body.ri-Dark .legend-green { background: #74a665; }
+body.ri-Dark .legend-brown { background: #a87556; }
+body.ri-Dark .resourceschedule{ background:#1c1f22;}
+body.ri-Dark .rimpactmain::before{ background: #1c1f22; } 
+body.ri-Dark .rimpactmain::after{ background: #1c1f22;  }
+body.ri-Dark #calendar.roadmap span.date {    color: #ddd !important;}
+body.ri-Dark #calendar.daily section .cal-unit.current {    background: #161717 !important;}
+body.ri-Dark .resources--cal-unit.leaveday {    background: #7b7b7b !important;}
+body.ri-Dark .legends-rmap {    color: #ddd !important;}
+
+
+/**********light-theme*****************/
+body.ri-Light .resourceschedule {    background: #ececec;}
+body.ri-Light .rimpactmain::before{ background: #ececec; } 
+body.ri-Light .rimpactmain::after{ background: #ececec;  }
+body.ri-Light #calendar.daily section #time-periods .unit-group h2 {    color: #333;}
+body.ri-Light .resources--cal-unit {    background: #fff;}
+
+
+/**********ultra-light-theme*****************/
+body.ri-ultra-light .resourceschedule{ background: #f3f3f3; } 
+body.ri-ultra-light .rimpactmain::before{ background: #f3f3f3; } 
+body.ri-ultra-light .rimpactmain::after{ background: #f3f3f3;  } 
+body.ri-ultra-light #calendar.daily section #time-periods .unit-group h2 {    color: #333;}
+body.ri-ultra-light .resources--cal-unit {    background: #fff;}
+body.ri-ultra-light div.unit-group:nth-child(2n) {	background: #fff !important;}
+body.ri-ultra-light div.unit-group:nth-child(2n+1) {	background: #dee2e6 !important;}
+body.ri-ultra-light #calendar.daily section .cal-unit.current {    background: #cccccc !important;}
+body.ri-ultra-light .date-controls.roadProjectmap {    background: #d3d3d3 !important;}
+
