@@ -14,16 +14,13 @@
                 type: Boolean,
                 required: false,
                 default: false
-            }  
-             
+            }               
         },
         data: function () {
-            return {
-                
+            return {                
             }
         },
-        methods: {
-            
+        methods: {            
         }
     }
 </script>

@@ -28,8 +28,8 @@
 <template>
 <Field v-slot="{ value }" :name="name" as="select" :rules="{'required':isRequired}" :label="name"
 v-bind:class="{'form-control' : true}">
-  <option value="" disabled>Select a value</option>
+  <option value="dfd">Select a value</option>
   <option v-for="item in options" :key="item" :value="item.value">{{ item.name }}</option>
 </Field>
-<ErrorMessage :name="name" />   
+<ErrorMessage :name="name" as="span" v-slot="{ message }" class="invalid-feedback">{{ message }}</ErrorMessage>  
 </template>
