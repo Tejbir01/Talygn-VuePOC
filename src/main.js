@@ -59,7 +59,17 @@ defineRule('email', value => {
     }
     return true;
 });
-
+defineRule('url', value => {
+    // Field is empty, should pass
+    if (!value || !value.length) {
+        return true;
+    }
+    // Check if email
+    if (!/^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/.test(value)) {
+        return false;
+    }
+    return true;
+});
 configure({
     // Generates an English message locale generator
     generateMessage: localize('en', {

@@ -13,7 +13,11 @@
                 type: Boolean,
                 required: false,
                 default: false
-            }           
+            },
+             optionslist: {
+              type: String,
+              required: false,
+    },           
         },
         data: function () {
             return {       
