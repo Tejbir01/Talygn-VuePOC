@@ -46,7 +46,7 @@ export default {
     v-for="field in group.LeadData" :key="field">
         <div v-bind:class="{ 'col-sm-12 col-md-12 float-left': true, 'col-lg-6 col-xl-6': true }" v-if="field.form_field_visibility == 'YES'">
             <div class="form-group">
-                <label>{{$t(field.label)}}:<span v-if="field.is_required"
+                <label>{{$t(field.name.toUpperCase())}}:<span v-if="field.is_required"
                         v-bind:class="{ 'text-danger': true }">*</span></label>
                 <a href="javascript:;" :title="field.user_guide">
                     <i class="fa fa-question-circle-o text-popover" style="font-size: 14px;"></i>
@@ -55,12 +55,8 @@ export default {
                     <div class="col-12 float-left">
                         <div class="input-group">
                             <component 
-                            :name="field.name" 
-                            :is="field.astype"
-                            :isRequired="field.is_required"
-                            :options="field.select_options=='' || field.select_options=='Yes|1,No|0'||field.select_options==null ? undefined: JSON.parse(field.select_options)"
-                            :value="field.value"
-                            :optionslist="field.picklist_options">
+                            :field="field" 
+                            :is="field.astype">
                             </component>                           
                         </div>
                     </div>
