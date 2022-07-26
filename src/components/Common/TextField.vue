@@ -5,22 +5,7 @@
               field: {
                 type: Object,
                 required: true
-            }            
-                 
-            // name: {
-            //     type: String,
-            //     required: false
-            // },            
-            // type: {
-            //     type: String,
-            //     required: false
-            // },           
-            // isRequired: {
-            //     type: Boolean,
-            //     required: false,
-            //     default: false
-            // }  
-             
+            }                                              
         },
         data: function () {
             return {                

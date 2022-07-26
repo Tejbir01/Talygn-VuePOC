@@ -1,39 +1,6 @@
 <script>
     export default {
-        name: 'number-input',
-        props: {
-            // name: {
-            //     type: String,
-            //     required: false
-            // },
-            // min: {
-            //     type: Number,
-            //     required:false
-            // },
-            // max: {
-            //     type: Number,
-            //     required: false
-            // },
-            // type: {
-            //     type: String,
-            //     required: false
-            // },
-            // isDecimal: {
-            //     type: Boolean,
-            //     required: false,
-            //     default:false
-            // },
-            // isRequired: {
-            //     type: Boolean,
-            //     required: false,
-            //     default: false
-            // },
-            // decimalPoints: {
-            //     type: Number,
-            //     required: false,
-            //     default:2
-            // }
-
+        props: {          
              field: {
                 type: Object,
                 required: true

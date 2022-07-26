@@ -36,19 +36,8 @@ const route = useRoute();
     <section class="main-content">
       <div class="container-fluid" id="divMainLeadData" v-cloak>
         <div class="border p-3">
-          <Form v-slot="{ values,meta}" ref="form">
-            <!-- <div class="row">
-              <div class="clearfix"></div>
-              <div v-bind:class="{ 'col-lg-12 mb-3 float-left': true, 'mt-3': true }">
-                <div class="heading-border">
-                  <h5 class="h5">
-                    <span>Comopany Information</span>
-                  </h5>
-                </div>
-              </div>
-              
-            </div> -->
-            <DynamicForm :schema="GroupBy" />
+          <Form v-slot="{ values,meta}" ref="form">           
+            <DynamicForm :schema="GroupBy" /> 
             <div class="row flex-row-reverse mt-2">
               <div class="col-lg-6 text-end">
                 <a

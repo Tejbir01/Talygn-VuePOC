@@ -1,20 +1,6 @@
 <script>
     export default {
-        name: 'text-input',
-        props: {
-            // name: {
-            //     type: String,
-            //     required: false
-            // },            
-            // type: {
-            //     type: String,
-            //     required: false
-            // },           
-            // isRequired: {
-            //     type: Boolean,
-            //     required: false,
-            //     default: false
-            // }, 
+        props: {            
              field: {
                 type: Object,
                 required: true

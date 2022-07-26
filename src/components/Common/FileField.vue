@@ -1,6 +1,6 @@
 <script>
     export default {
-        name: 'text-input',
+        
         props: {
               field: {
                 type: Object,

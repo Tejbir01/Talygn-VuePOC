@@ -1,8 +1,6 @@
 <script>
     export default {
-        name: 'text-input',
-        props: {
-            
+        props: {            
              field: {
                 type: Object,
                 required: true
