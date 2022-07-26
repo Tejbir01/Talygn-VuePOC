@@ -23,12 +23,10 @@
              
         },
         data: function () {
-            return {
-                
+            return {                
             }
         },
-        methods: {
-            
+        methods: {            
         }
     }
 </script>

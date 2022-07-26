@@ -33,9 +33,18 @@ export default {
 };
 </script>
 <template>
-    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 float-left p-0 d-flex flex-wrap" 
-    v-for="field in schema" :key="field">
-        <div v-bind:class="{ 'col-sm-12 col-md-12 float-left': true, 'col-lg-6 col-xl-6': true }">
+ <div class="row" v-for="(group,parentIndex) in schema" :key="parentIndex">
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 mb-3">
+                            <div class="heading-border mt-2">
+                                <h5 class="h5"><span>{{ $t(group.group_display_name)}}</span> </h5>
+                            </div>
+                        </div> 
+    <div :class="{'col-sm-12 col-md-12 float-left': true, 'd-none' : field.form_field_visibility == 'NO',
+                             'col-lg-12 col-xl-12': field.layout_type =='single', 'col-lg-6 col-xl-6': field.layout_type =='double', 'col-lg-4 col-xl-4': field.layout_type =='triple', 'col-lg-3 col-xl-3':
+                             field.layout_type =='four' }" v-bind:id="field.name" 
+    v-for="field in group.LeadData" :key="field">
+        <div v-bind:class="{ 'col-sm-12 col-md-12 float-left': true, 'col-lg-6 col-xl-6': true }" v-if="field.form_field_visibility == 'YES'">
             <div class="form-group">
                 <label>{{$t(field.name.toUpperCase())}}:<span v-if="field.is_required"
                         v-bind:class="{ 'text-danger': true }">*</span></label>
@@ -55,4 +64,5 @@ export default {
             </div>
         </div>
     </div>
+ </div>
 </template>
